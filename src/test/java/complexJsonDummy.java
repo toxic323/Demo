@@ -34,7 +34,7 @@ public class complexJsonDummy {
         System.out.println(coursesAmount);
         System.out.println(priceAmount);
         System.out.println(secondTitle);
-	System.out.println("Tez dodatkowy tekst");
+	System.out.println("Tez dodatkowaaaay tekst");
         System.out.println(titles);
         System.out.println(root);
 
