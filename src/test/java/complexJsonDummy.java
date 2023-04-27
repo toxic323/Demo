@@ -17,6 +17,7 @@ public class complexJsonDummy {
             int temp = jsResponse.getInt("courses[" + i + "].copies") * jsResponse.getInt("courses[" + i + "].price");
             sum = sum + temp;
         }
+        System.out.println("Testuje jenkinsa z github");
         System.out.println("Suma wyliczona to: " + sum);
         System.out.println("Suma z API to: " + priceAmount);
         Assert.assertEquals(sum, priceAmount);
