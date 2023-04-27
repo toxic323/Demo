@@ -2,14 +2,15 @@ import files.payloads;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
 public class example {
-
-    public static void main(String[] args) {
+    @Test
+    public void main(String[] args) {
         payloads location1 = new payloads();
 
         RestAssured.baseURI = "https://rahulshettyacademy.com";
@@ -47,5 +48,7 @@ public class example {
         js = new JsonPath(getPlaceResponse);
         String actualAdress = js.getString("address");
         Assert.assertEquals(actualAdress, "Gdzies Tu w Krakowie");
+
+
     }
 }
