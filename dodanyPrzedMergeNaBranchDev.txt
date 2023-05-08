@@ -5,3 +5,4 @@ przed fetchh
 x2
 x3
 
+znowu z neta
