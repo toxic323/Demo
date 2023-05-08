@@ -1,3 +1,4 @@
+
 import files.payloads;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
@@ -5,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class complexJsonDummy {
 
-    //sprawdz czy totalAmount(priceAmount), zgadza sie z poszczegolnymi w courses
+    //sprawdzz czy totalAmount(priceAmount), zgadza sie z poszczegolnymi w courses
     @Test
     public void sumVerification() {
         JsonPath jsResponse = new JsonPath(payloads.coursePrice());
