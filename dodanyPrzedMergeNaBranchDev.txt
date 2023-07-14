@@ -15,7 +15,7 @@
   <book category="web">
     <title lang="en">Learning XML</title>
     <author>Erik T. Ray</author>
-    <year>99999</year>
+    <year>abc</year>
     <price>1000000</price>
   </book>
 </bookstore>
