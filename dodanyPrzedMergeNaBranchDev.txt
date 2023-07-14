@@ -8,14 +8,14 @@
   </book>
   <book category="children">
     <title lang="en">Harry Potter</title>
-    <author>J K.a Rowling</author>
+    <author>J K. Rowling</author>
     <year>abc</year>
     <price>29.99</price>
   </book>
   <book category="web">
     <title lang="en">Learning XML</title>
     <author>Erik T. Ray</author>
-    <year>99999</year>
+    <year>abc</year>
     <price>1000000</price>
   </book>
 </bookstore>
