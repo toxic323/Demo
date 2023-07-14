@@ -3,7 +3,7 @@
   <book category="cooking">
     <title lang="en">Everyday Italian</title>
     <author>BARTEK</author>
-    <year>2005</year>
+    <year>2005lok</year>
     <price>30.00</price>
   </book>
   <book category="children">
